@@ -28,6 +28,7 @@ The new generation of the TPMS transceivers, for Tractors and Trailers, highligh
 ### Wired Communication
 
 - Proprietary CAN-Bus J1939-based.
+- Compatible with ISO11992.
 - Configurable CAN baud-rate between 250kbps and 500kbps.
 - Configurable CAN address for multi-receiver setup.
 - Proprietary RS232 Protocol.
