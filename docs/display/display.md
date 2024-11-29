@@ -41,7 +41,7 @@ The new generation of the TPMS displays, for in-cabin information directly to th
 - Handles Trucks with up to 5 axles.
 - Handles Trailers with up to 6 axles.
 
-![User Interface](images/display_drawing.png){ width="400px"}
+![User Interface](images/display_drawing.png){ width="600px"}
 
 ### Connector
 
@@ -55,7 +55,7 @@ The new generation of the TPMS displays, for in-cabin information directly to th
 - Dimensions: 116x68x25mm (LxWxH).
 - Includes Bracket&Screw.
 
-![Display Bracket](images/display_bracket.png){ width="400px"}
+![Display Bracket](images/display_bracket.png){ width="150px"}
 
 
 

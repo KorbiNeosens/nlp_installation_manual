@@ -70,7 +70,7 @@ Included a 1 meter pigtail cable with TE-1718230-1 connector:
 | 6  | CAN-H        |
 | 7  | Power        |
 
-![Receiver pinout](images/receiver_pinout.png){ width="400px"}
+![Receiver pinout](images/receiver_pinout.png){ width="150px"}
 
 The matching connector for an installation cable is the following:
 - Matching Connector: TE PN 967650-1
@@ -82,7 +82,7 @@ The matching connector for an installation cable is the following:
 
 The general wiring of the NLP receiver follows the picture:
 
-![Wiring](images/wiring_general.png){ width="400px"}
+![Wiring](images/wiring_general.png){ width="700px"}
 
 Attention to the following notes:
 - A fuse **must** be added to the power line of the receiver, or the power line must come directly from the fuse box.
@@ -154,7 +154,7 @@ Consider the following recommendations when identifying the optimal mounting pos
 - Maintain a minimum distance of at least 20 cm between the NLP receiver and any high-bitrate cables and 50 cm from electric motors, alternators, or other electrical machines with coils and windings.
 - Begin by setting up the first vehicle of a particular type in a fleet and thoroughly verify its performance. Subsequent vehicles of the same type can then be replicated with less time spent on performance verification.
 
-![Positioning](images/receiver_positioning.png){ width="400px"}
+![Positioning](images/receiver_positioning.png){ width="800px"}
 
 For ECE R141 Trailer Gateway compliance, ue to the limited distance of RF transmission especially under the condition of permanently moving sensors in the tyres, the maximum distance between the sensor and receiver must be considered.
 - Sensor to Receiver distance1 limitation:	4,5 m
@@ -172,7 +172,7 @@ To secure the unit to the vehicle chassis, you can use M8 screws (not included) 
 
 We also recommend the usage of a bracket, helping moving the transceiver away from other devices and cables. The bracket can be fixed to existing holes in the chassis, facilitating the installation overall. One possible bracket is as follows (not included):
 
-![Receiver bracket](images/receiver_bracket.png){ width="400px"}
+![Receiver bracket](images/receiver_bracket.png){ width="600px"}
 
 ## Configuration and Diagnostics
 
@@ -184,7 +184,7 @@ The in-built RGB LED for diagnosis is a visual indicator to inform about the ope
 
 The receiver will always blink **4 times** in a row. Each blink has a different meaning:
 
-![Receiver](images/receiver_leds.png){ width="400px"}
+![Receiver](images/receiver_leds.png){ width="300px"}
 
 #### 1st Blink - RF Status
 |**Color** | **Description**                        |
