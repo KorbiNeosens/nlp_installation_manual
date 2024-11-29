@@ -44,6 +44,13 @@ plugins:
 nav:
   - Home: index.md
   - Receiver: receiver/receiver.md
+      - Specification: receiver/receiver_spec.md
+      - Enclosure and Cables: receiver/receiver_enclosure.md
+      - Installation: receiver/receiver_installation.md
+      - Configuration and Diagnostics: receiver/receiver_configuration.md
+      - Certificates: receiver/receiver_certificates.md
   - External Sensors: sensors/external.md
   - Internal Sensors: sensors/internal.md
   - Display: display/display.md
+      - Specification: display/display_spec.md
+      - Enclosure and Cables: display/display_buttons.md
