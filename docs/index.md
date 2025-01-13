@@ -7,6 +7,6 @@ pdf: true
 
 ## Introduction
 
-This installation manual is aimed to guide the proper installation of the NLP system on trucks and trailers. The scope of this manual is to outline the specifications of the components and and proviude installation instructions to optimize the performance and functionality of the NLP system in a commercial vehicle setting.
+This installation manual is designed to guide the proper installation of the NLP system on trucks and trailers. It outlines the specifications of the components and provides step-by-step installation instructions to optimize the performance and functionality of the NLP system in commercial vehicles.
 
 ![App Screenshot](images/nlp_icon.png){ width="200px"}

@@ -40,17 +40,35 @@ extra_css:
 
 plugins:
   - search
+  # - exporter:
+  #     formats:
+  #       pdf:
+  #         enabled: true
+  #         stylesheets:
+  #           - resources/stylesheets/pdf.scss
+  #         covers:
+  #           front: resources/templates/covers/front.html.j2
+  #         aggregator:
+  #           enabled: true
+  #           output: NLP_Installation_Manual.pdf
+  #           covers: limits
 
 nav:
   - Home: index.md
-  - Receiver: receiver/receiver.md
+  - Receiver: 
       - Specification: receiver/receiver_spec.md
       - Enclosure and Cables: receiver/receiver_enclosure.md
       - Installation: receiver/receiver_installation.md
       - Configuration and Diagnostics: receiver/receiver_configuration.md
       - Certificates: receiver/receiver_certificates.md
-  - External Sensors: sensors/external.md
-  - Internal Sensors: sensors/internal.md
-  - Display: display/display.md
+  - External Sensors: 
+      - Specification: sensors/external_spec.md
+      - Sensor Types and Accessories: sensors/external_types_installation.md
+      - Installation Tool Kit: sensors/installation_tool_kit.md
+  - Internal Sensors: 
+      - Specification: sensors/internal_spec.md
+      - Valve-mounted Sensor: sensors/internal_valve.md
+      - Strap-mounted Sensor: sensors/internal_strap.md
+  - Display: 
       - Specification: display/display_spec.md
-      - Enclosure and Cables: display/display_buttons.md
+      - Buttons Functionality: display/display_buttons.md

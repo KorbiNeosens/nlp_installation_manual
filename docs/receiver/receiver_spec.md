@@ -2,19 +2,18 @@
 pdf: true
 ---
 
-
-## Specification
+# Specification
 
 The new generation of the TPMS transceivers, for Trucks and Trailers, highlighted features are described below:
 
-### Sensor Reception
+## Sensor Reception
 
 - Two fully independent channels for parallel data reception.
 - Receiving and decoding in parallel two separated sensor types.
 - 433MHz, FSK or OOK modulation.
 - Precise RSSI (signal strength) measurement
 
-### Electrical Specifications
+## Electrical Specifications
 
 - Operating Voltage: 7 – 32V.
 - Working current: ≤ 50mA@24V.
@@ -22,7 +21,7 @@ The new generation of the TPMS transceivers, for Trucks and Trailers, highlighte
 - Automotive overvoltage protection.
 - Powered by EFR32BG22 chipset.
 
-### Wired Communication
+## Wired Communication
 
 - Proprietary CAN-Bus J1939-based.
 - Compatible with ISO11992.
@@ -33,9 +32,9 @@ The new generation of the TPMS transceivers, for Trucks and Trailers, highlighte
 - Configurable RS232 baud-rate between 4.8kbps and 115.2kbps.
 - (Optional) RS485 communication bus.
   
-### Wireless Communication
+## Wireless Communication
   
-- Using state-of-the-art 2.4GHz communication protocol. 
+- Using state-of-the-art 2.4GHz communication protocol.
 - Connection available for setup, diagnosis and firmware update.
 - Trailer TPMS data wirelessly forwarded to Truck unit.
 - Daisy-chain 2.4GHz communication for multiple-trailers setup or range extension.

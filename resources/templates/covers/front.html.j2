@@ -1,0 +1,82 @@
+<style data-teleport="head">
+  .front-cover {
+    margin: var(--margin);
+    height: calc(var(--height) - var(--offset));
+    page-break-after: always;
+    border: 1px solid #fff;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 2cm;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30%; /* Set width only */
+      height: auto; /* Automatically adjusts height to maintain aspect ratio */
+    }
+
+  
+    section {
+      color: #fff;
+      width: 100%; /* Make section span full width */
+      position: absolute;
+      bottom: 4cm; /* Position above the bottom */
+      text-align: center; /* Center-align content */
+      border: 1px solid #fff; /* white boarder around title */
+    }
+
+    section .title, 
+    section .version {
+      display: block; /* Ensure block-level behavior */
+      width: 100%; /* Force full width */
+      margin: 0; /* Remove any default margins */
+    }
+
+    section .title {
+      font-size: 32pt;
+      font-weight: 500;
+      line-height: 1.1;
+      margin-top: 1em;
+      color: #fff;
+      string-set: title content(text);
+      width: 100%;
+    }
+
+    section .version {
+      line-height: 1.5;
+      font-size: 14pt; /* Slightly larger font size */
+      font-family: monospace;
+      color: #fff;
+      width: 100%;
+    }
+  }
+
+  @page {
+    @top-center {
+      font-size: 9pt;
+      color: #fff;
+      content: '{{ config.site_name }}' ' — ' string(title);
+    }
+  }
+
+  @page :first {
+    margin: 0;
+    background: var(--md-primary-fg-color);
+
+    @top-center {
+      content: none;
+    }
+
+    @bottom-center {
+      content: none;
+    }
+  }
+</style>
+<div class="front-cover">
+  <img src="/assets/images/background.png">
+  
+  <section>
+    <div class="version">v1.0</div>
+    <div class="title">NLP Installation Manual</div>
+  </section>
+</div>
