@@ -76,27 +76,56 @@ For Trailer installations is recommended to get power by connecting the transcei
 ### Wabco (ZF) TEBS-E 
 
 #### EU-R141 Communication
+For R141 compliance, one must use the GIO5 port. The installer must use the cable **449 915 010 0** from Wabco, connected to our cable **16050**.
+
+![Cable_Wabco](images/Wabco_Installation.png){ width="800px"}
+
 
 #### Power only
+For aftermarket installations, any free GIOx port can be used. The installer must use the cable **449 443 010 0** from Wabco, connected to our cable **16050**.
+
+![Cable_Wabco](images/Wabco_Installation_AFM.png){ width="800px"}
 
 ### Haldex G2/G3
 
 #### Power only
+For aftermarket installations, any free AUX port can be used. The installer must use the cable **814 012 221** from Haldex, connected to our cable **16050**.
+
+![Cable_Haldex](images/Haldex_Installation2.png){ width="800px"}
+
 
 ### Haldex 4.0
 
 #### EU-R141 Communication
+For R141 compliance, one must use the AUX port. The installer must use the cable **884 321 010** from Haldex, connected to our cable **16050**.
+
+![Cable_Haldex](images/Haldex_Installation.png){ width="800px"}
 
 #### Power only
+For aftermarket installations, any free AUX port can be used. The installer must use the cable **884 321 010** from Haldex, connected to our cable **16050**.
+
+![Cable_Haldex](images/Haldex_Installation.png){ width="800px"}
 
 ### Knorr-Bremse G2.2
 
 #### EU-R141 Communication
+For R141 compliance, one must use the AUX port. The installer must use the cable **15792**.
+
+![Cable_KB](images/KB_Installation2.png){ width="800px"}
 
 #### Power only
+For aftermarket installations, one must use the AUX port. The installer must use the cable **15792**.
+
+![Cable_KB](images/KB_Installation2.png){ width="800px"}
 
 ### Knorr-Bremse iEBS
 
 #### EU-R141 Communication
+For R141 compliance, one must use the AUX port. The installer must use the cable **15782**.
+
+![Cable_KB](images/KB_Installation.png){ width="800px"}
 
 #### Power only
+For aftermarket installations, one must use the AUX port. The installer must use the cable **15782**.
+
+![Cable_KB](images/KB_Installation.png){ width="800px"}
