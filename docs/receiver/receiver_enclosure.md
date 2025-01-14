@@ -68,9 +68,13 @@ For Trailer installations is recommended to get power by connecting the transcei
 
 #### EU-R141 Communication
 
-For R141 compliance, one must use the GIO5 port. The installer must use the cable **449 915 010 0** from Wabco, connected to our cable **16050**.
+For R141 compliance, you can use the GIO5 port. The installer must use the cable **449 915 010 0** from Wabco, connected to our cable **16050**.
 
 ![Cable_Wabco](images/Wabco_Installation.png){ width="800px"}
+
+Optional you can use the SUBSYSTEM port. The installer must use the cable **449 913 050 0** from Wabco.
+
+![Cable_Wabco 2](images/Wabco_Installation2.png){ width="800px"}
 
 #### Power only
 
@@ -136,3 +140,5 @@ If the receiver will be installed with a Telematics box, please follow the guide
     - The NLP Receiver **must** still be supplied with the ignition signal (K15).
     - A fuse must be added to both power and ignition signals.
 - The Telematics unit does not have a CAN termination. A 120-Ohms termination resistor must be added to the cable as close as possible to the Telematics unit, between CAN High and Low (Telematics pins 4 and 5).
+
+![Wiring Telematics](images/wiring_telematics.png){ width="700px"}
