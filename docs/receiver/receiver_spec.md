@@ -11,7 +11,7 @@ The new generation of the TPMS transceivers, for Trucks and Trailers, highlighte
 - Two fully independent channels for parallel data reception.
 - Receiving and decoding in parallel two separated sensor types.
 - 433MHz, FSK or OOK modulation.
-- Precise RSSI (signal strength) measurement
+- Precise RSSI (signal strength) measurement.
 
 ## Electrical Specifications
 

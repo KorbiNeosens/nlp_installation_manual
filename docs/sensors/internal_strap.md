@@ -13,8 +13,8 @@ pdf: true
 
 - Weight: 71.5g.
 - Dimensions: 84x32x23mm (LxWxH).
-- Water proof: IP67, IP69K
-- Material: Plastic
+- Water proof: IP67, IP69K.
+- Material: Plastic.
 
 ## Fitment Instruction
 
@@ -31,5 +31,3 @@ pdf: true
 - Read through these instructions before sensor installation.
 - Ensure that no contact takes place between the bead breaker blade and the sensor, avoiding any potential damage to the sensor.
 - You must service/replace the valve each time the tyre is removed to uphold the sensor warranty.
-
-
