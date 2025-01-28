@@ -24,14 +24,14 @@ pdf: true
 |**Fitment Steps** |
 |----------------|
 | 1. Insert the strap, with the Velcro side facing up, first through the left side and then out through the right side. Pull the strap until the sensor is positioned near the sensor fitting area.
- ![Step 1](images/strap_sensor_velcro.jpg){ width="600px"}    |
+ ![Step 1](images/strap_sensor_velcro.jpg){ width="400px"}    |
 | 2. Align the white valve icon on the sensor with the center of the valve hole and tighten the strap. Ensure the sensor is securely fixed and cannot move or slip. Once the two layers of the strap are bonded together, apply additional pressure along the strap layers to ensure they are firmly secured.
-  ![Step 2](images/strap_sensor_mounting.jpg){ width="600px"}     |
+  ![Step 2](images/strap_sensor_mounting.jpg){ width="400px"}     |
 | 3. When fitting the tire, ensure that the sensor does not come into contact with the tire. While mounting the second tire wall, avoid any contact between the mounting tool and the sensor.
- ![Step 3](images/valve_mounted_instruction_step3.JPG){ width="600px"}    |
+ ![Step 3](images/valve_mounted_instruction_step3.JPG){ width="400px"}    |
 | 4. Place the tire in an inflation safety cage and inflate the tire to the required pressure value.
- ![Step 4](images/valve_mounted_instruction_step4.JPG){ width="600px"}        |
-| 5. For twin wheels, to help with TPMS readings, offsetting the valves prevents signal interference, which can cause incorrect readings. ![Step 5](images/strap_sensor_twin_tires.jpg){ width="600px"}        |
+ ![Step 4](images/valve_mounted_instruction_step4.JPG){ width="400px"}        |
+| 5. For twin wheels, to help with TPMS readings, offsetting the valves prevents signal interference, which can cause incorrect readings. ![Step 5](images/strap_sensor_twin_tires.jpg){ width="400px"}        |
 
 ### Caution
 
@@ -50,6 +50,6 @@ pdf: true
 
 ### Sensor and Strap Disposal
 
-![Disposal](images/strap_sensor_recycling.jpg){ width="800px"}
+![Disposal](images/strap_sensor_recycling.jpg){ width="600px"}
 
 
