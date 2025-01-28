@@ -44,5 +44,8 @@ pdf: true
 
 
 
+### Sensor and Strap Disposal
+
+![Disposal](images/strap_sensor_recycling.JPG){ width="800px"}
 
 
