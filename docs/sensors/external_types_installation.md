@@ -7,7 +7,7 @@ pdf: true
 ## Sensor Types
 
 |**Sensor Type** | **Optional installation position** | **Picture** |
-|----------------|--------|--------|
+|----------------|--------|:--------:|
 | Flow-through Standard Sensor | Single tire or inner dual tires | ![Step 1](images/ft_standard.jpg){ width="400px"}        |
 | Flow-through Short Flexy Sensor | Outer dual tires (+ rim clamp) | ![Step 2](images/ft_flexy_short.jpg){ width="400px"}             |
 | Flow-through Long Flexy Sensor | Inner dual tires (+ rim clamp)  | ![Step 3](images/ft_flexy_long.jpg){ width="400px"}       |

@@ -20,10 +20,10 @@ pdf: true
 
 |**Fitment Steps** | **Picture**                        |
 |----------------|:--------:|
-| 1. Secure the valve to the sensor with the screw and a torque of 5Nm.  | ![Step 1](images/valve_mounted_instruction_step1.JPG){ width="600px"}        |
-| 2. Put the valve through the valve hole, ensuring the rubber grommet makes good contact all around. Attach the nut to the valve by hand. Then, tigthen the nut with a torque tool to 12-15Nm.  | ![Step 2](images/valve_mounted_instruction_step2.JPG){ width="600px"}             |
-| 3. Remount the tire to the rim, ensuring the valve is opposite the tire fitting head.  | ![Step 3](images/valve_mounted_instruction_step3.JPG){ width="600px"}       |
-| 4. Place the tire in an inflation safety cage and inflate the tire to the required pressure value.  | ![Step 4](images/valve_mounted_instruction_step4.JPG){ width="600px"}        |
+| 1. Secure the valve to the sensor with the screw and a torque of 5Nm.  | ![Step 1](images/valve_mounted_instruction_step1.JPG){ width="400px"}        |
+| 2. Put the valve through the valve hole, ensuring the rubber grommet makes good contact all around. Attach the nut to the valve by hand. Then, tigthen the nut with a torque tool to 12-15Nm.  | ![Step 2](images/valve_mounted_instruction_step2.JPG){ width="400px"}             |
+| 3. Remount the tire to the rim, ensuring the valve is opposite the tire fitting head.  | ![Step 3](images/valve_mounted_instruction_step3.JPG){ width="400px"}       |
+| 4. Place the tire in an inflation safety cage and inflate the tire to the required pressure value.  | ![Step 4](images/valve_mounted_instruction_step4.JPG){ width="400px"}        |
 
 ### Caution
 

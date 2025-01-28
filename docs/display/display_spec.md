@@ -21,7 +21,7 @@ that Transceiver, including the Trailers.
 - Overvoltage protection up to 45V.
 - Powered by EFR32BG22 chipset.
 - ON/OFF Vibration switch sensor.
-- Average consumption: 7mA
+- Average consumption: 7mA.
 
 ## Wireless Communication
 

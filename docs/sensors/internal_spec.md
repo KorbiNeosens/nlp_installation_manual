@@ -30,19 +30,7 @@ pdf: true
 
 ## Transmission Routine
 
-- Frequency at 433.92MHz
+- Frequency at 433.92MHz.
 - Fixed transmission every 120 seconds.
 - Three frames of data transmitted for redundancy and reliability.
 - Rapid transmission in alert mode.
-
-## Installation and Maintenance
-
-- Suitable for a varitey of valves.
-- Valve nozzle distance is adjustable.
-
-## Mechanical Features
-
-- Weight: 71.5g.
-- Dimensions: 102x62x39mm (LxWxH).
-- Water proof: IP67, IP69K
-- Material: Plastic, brass

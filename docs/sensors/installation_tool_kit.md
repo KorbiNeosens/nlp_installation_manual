@@ -8,7 +8,7 @@ pdf: true
 
 | **Installation Tool Kit**       |
 |:----------------------:|
-| ![Tool Kit](images/tool_kit.JPG){width="400px"} |
+| ![Tool Kit](images/tool_kit.JPG) |
 
 ## Tool Kit Content
 
@@ -28,8 +28,8 @@ pdf: true
 
 |**Description** | **Items used** | **Picture** |
 |----------------|:--------:|:--------:|
-| **Standard Sensor** Installation on single tires | 4+5+6 | ![Standard Sensor Installation (single tires)](images/ft_standard_install.JPG){ width="400px"}        |
-| **Standard Sensor** Installation on dual tires | 4+5+6+9 | ![Standard Sensor Installation (dual tires)](images/ft_standard_install(dual).JPG){ width="400px"}             |
-| **Flexy Sensor** Installation | 1  | ![Flexy Sensor Installation](images/ft_flexy_install.jpg){ width="400px"}       |
-| Rim Clamp Installation | 3  | ![Rim Clamp Installation](images/clamp_install.JPG){ width="400px"}       |
-| O-Ring Replacement | 2  | ![O-Ring Replacement](images/o_ring_install.JPG){ width="400px"}       |
+| **Standard Sensor** Installation on single tires | 4+5+6 | ![Standard Sensor Installation (single tires)](images/ft_standard_install.JPG)        |
+| **Standard Sensor** Installation on dual tires | 4+5+6+9 | ![Standard Sensor Installation (dual tires)](images/ft_standard_install(dual).JPG)            |
+| **Flexy Sensor** Installation | 1  | ![Flexy Sensor Installation](images/ft_flexy_install.jpg)       |
+| Rim Clamp Installation | 3  | ![Rim Clamp Installation](images/clamp_install.JPG)      |
+| O-Ring Replacement | 2  | ![O-Ring Replacement](images/o_ring_install.JPG)       |
