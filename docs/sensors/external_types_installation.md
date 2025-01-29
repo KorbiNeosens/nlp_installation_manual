@@ -16,5 +16,5 @@ pdf: true
 
 |**Description** | **Picture**                        |
 |----------------|:--------:|
-| Rim Clamp for Alloy Wheels | ![Alloy Rim Clamp](images/alloy_clamp.png){ width="600px"}        |
-| Rim Clamp for Steel Wheels | ![Steel Rim Clamp](images/steel_clamp.png){ width="600px"} |
+| Rim Clamp for Alloy Wheels | ![Alloy Rim Clamp](images/alloy_clamp.png){ width="400px"}        |
+| Rim Clamp for Steel Wheels | ![Steel Rim Clamp](images/steel_clamp.png){ width="400px"} |
