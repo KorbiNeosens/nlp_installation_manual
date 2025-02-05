@@ -1,12 +1,12 @@
-site_name: TPMS Installation Manual v1.0
+site_name: Installation Manual v1.0
 site_author: Neosens
 
 
 theme:
   name: material
   pdf: true
-  logo: images/nlp_icon.png
-  favicon: images/nlp_icon.png
+  logo: images/tiresens_bw.png
+  favicon: images/tiresens_sq.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -50,7 +50,7 @@ plugins:
   #           front: resources/templates/covers/front.html.j2
   #         aggregator:
   #           enabled: true
-  #           output: NLP_Installation_Manual_v1-0.pdf
+  #           output: Tiresens_Installation_Manual_v1-0.pdf
   #           covers: limits
 
 nav:

@@ -5,5 +5,33 @@
 }
 
 :root {
-  --md-primary-fg-color:        #0C4875;
+  --md-primary-fg-color:        #bf1e2e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #bf1e2e; /* Headings  */
+}
+
+
+.md-header-nav__link {
+  color: #fffffff !important; /* Adjust to your preferred color */
+}
+
+/* Change color on hover */
+.md-header-nav__link:hover {
+  color: #bf1e2e !important; /* Example: Yellow on hover */
+}
+
+/* Ensure the sidebar text is readable */
+.md-nav__link {
+  color: #fffffff !important;
+}
+
+/* Ensure the sidebar text is readable */
+.md-nav__link:hover  {
+  color: #bf1e2e !important;
+}
+
+.md-header__title {
+  color: #fffffff !important;
 }
