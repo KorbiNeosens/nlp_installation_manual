@@ -4,15 +4,15 @@ pdf: true
 
 # Installation
 
-The range of the sensors is restricted. Consequently, we generally advise determining an installation placement for the NLP receiver that is relatively central to all the installed sensors sending data to it, ensuring dependable data transmission.
-Consider the following recommendations when identifying the optimal mounting position for the NLP receiver:
+The range of the sensors is restricted. Consequently, we generally advise determining an installation placement for the receiver that is relatively central to all the installed sensors sending data to it, ensuring dependable data transmission.
+Consider the following recommendations when identifying the optimal mounting position for the receiver:
 
-- Aim for an unobstructed line of sight between the NLP receiver and the corresponding sensors, or at least the wheels.
-- Steer clear of any metal barriers between the NLP receiver and the associated sensors that could impede reception, such as a trailer pallet box or an air tank.
-- When seeking the ideal position for the NLP receiver, prioritize the distance to sensors placed in more challenging environments, like deep rims or twin wheels.
-- For trucks, the NLP receiver should be closer to the driving axle (deep rims, twin wheels) than the steering axle.
-- Place the NLP receiver where the temperature remains within the specified operating range and away from devices generating heat.
-- Maintain a minimum distance of at least 20 cm between the NLP receiver and any high-bitrate cables and 50 cm from electric motors, alternators, or other electrical machines with coils and windings.
+- Aim for an unobstructed line of sight between the receiver and the corresponding sensors, or at least the wheels.
+- Steer clear of any metal barriers between the receiver and the associated sensors that could impede reception, such as a trailer pallet box or an air tank.
+- When seeking the ideal position for the receiver, prioritize the distance to sensors placed in more challenging environments, like deep rims or twin wheels.
+- For trucks, the receiver should be closer to the driving axle (deep rims, twin wheels) than the steering axle.
+- Place the receiver where the temperature remains within the specified operating range and away from devices generating heat.
+- Maintain a minimum distance of at least 20 cm between the receiver and any high-bitrate cables and 50 cm from electric motors, alternators, or other electrical machines with coils and windings.
 - Begin by setting up the first vehicle of a particular type in a fleet and thoroughly verify its performance. Subsequent vehicles of the same type can then be replicated with less time spent on performance verification.
 
 ![Positioning](images/receiver_positioning.png){ width="800px"}

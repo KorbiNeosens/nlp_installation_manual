@@ -8,7 +8,7 @@ The new generation of the TPMS displays, for in-cabin information directly to th
 
 ## Functional Description
 
-The Display only works when paired to a NLP
+The Display only works when paired to a 
 Truck Transceiver. Once paired, it will
 automatically show all wheels configured in
 that Transceiver, including the Trailers.

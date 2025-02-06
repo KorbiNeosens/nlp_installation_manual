@@ -40,7 +40,7 @@ The matching connector for an installation cable is the following:
 
 ## General Wiring
 
-The general wiring of the NLP receiver follows the picture:
+The general wiring of the receiver follows the picture:
 
 ![Wiring](images/wiring_general.png){ width="700px"}
 
@@ -52,7 +52,7 @@ The general wiring of the NLP receiver follows the picture:
     - Connect the ground wire (PIN 3) to the vehicle ground (K31). 
     - _[Optional]_ CAN Bus connection:
         - Connect the CAN-H and CAN-L wires to the corresponding CAN bus connection
-        - The NLP receiver includes a 120 Ohm termination resistor, which can be disabled.
+        - The receiver includes a 120 Ohm termination resistor, which can be disabled.
         - If the desired CAN-Bus is not terminated, a 120 Ohm termination resistor is required
     - _[Optional]_ RS232 connection:
         - Connect the RS232 Tx and RS232 Rx wires to the corresponding RS232 interface connection
@@ -137,7 +137,7 @@ For aftermarket installations, one must use the AUX port. The installer must use
 If the receiver will be installed with a Telematics box, please follow the guidelines below:
 
 - The Telematics unit requires Power (K30) and Ignition (K15).
-    - The NLP Receiver **must** still be supplied with the ignition signal (K15).
+    - The Receiver **must** still be supplied with the ignition signal (K15).
     - A fuse must be added to both power and ignition signals.
 - The Telematics unit does not have a CAN termination. A 120-Ohms termination resistor must be added to the cable as close as possible to the Telematics unit, between CAN High and Low (Telematics pins 4 and 5).
 

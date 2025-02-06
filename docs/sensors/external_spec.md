@@ -30,6 +30,7 @@ pdf: true
 
 ## Transmission Routine
 
+- Unique NLP technology.
 - Frequency at 433.92MHz.
 - Fixed transmission every 60 seconds.
 - Rapid transmission in alert mode.
