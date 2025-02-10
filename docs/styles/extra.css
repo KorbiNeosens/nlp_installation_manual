@@ -36,13 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .md-header__button.md-logo img {
-    height: 30px; /* Adjust based on your logo size */
-    margin-right: 40px; /* Creates space between logo and text */
+    height: 40px; /* Adjust based on your logo size */
 }
 
-.md-header__title {
-    height: 30px;
-}
 
 /* Ensure the sidebar text is readable */
 .md-nav__link:hover  {
