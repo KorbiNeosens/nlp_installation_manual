@@ -19,19 +19,14 @@
 	font-weight: 500 !important; /* Stronger bold effect */
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   color: #bf1e2e; /* Headings  */
 }
 
 /* Add a separator only below main menu titles */
 .md-nav__item > label.md-nav__link:not(.md-nav__link--active) {
-    display: block;
     border-bottom: 1px solid #ccc !important; /* Gray separator */
-    padding-bottom: 5px !important;
-    margin-bottom: 10px !important;
 	color: #000000 !important; /* Adjust color if needed */
-	font-weight: 800 !important; /* Stronger bold effect */
 }
 
 /* Increase the boldness of the active tab in the header */
@@ -49,11 +44,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 30px;
 }
 
-.md-nav__title {
-    display: none !important;
-}
-
-
 /* Ensure the sidebar text is readable */
 .md-nav__link:hover  {
   color: #bf1e2e !important;
@@ -64,3 +54,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800 !important; /* Stronger bold effect */
 }
 
+.md-nav__title {
+  color: #000000 !important;
+  border-bottom: 1px solid #ccc !important; /* Gray separator */
+}
+
+.md-nav__title[for="__drawer"][for="__drawer"] {
+  color: #ffffff !important;
+}

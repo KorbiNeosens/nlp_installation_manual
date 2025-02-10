@@ -28,6 +28,8 @@ theme:
       primary: custom
       accent: black 
 markdown_extensions:
+  - toc:
+      title: Quick links
   - attr_list
   - admonition
 
@@ -43,6 +45,7 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+    
 
 plugins:
   - privacy
