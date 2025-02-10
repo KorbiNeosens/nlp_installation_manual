@@ -38,7 +38,11 @@ extra_css:
 
 
 extra:
+  generator: false
   consent:
+    actions:
+        - accept
+        - reject
     title: Cookie consent
     description: >- 
       We use cookies to recognize your repeated visits and preferences, as well

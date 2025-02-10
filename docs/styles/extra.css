@@ -62,3 +62,13 @@ h1, h2, h3, h4, h5, h6 {
 .md-nav__title[for="__drawer"][for="__drawer"] {
   color: #ffffff !important;
 }
+
+.md-button:hover,
+.md-button--primary:hover {
+    background-color: #000000 !important; /* Change to your preferred hover color */
+    color: #ffffff !important; /* Ensure text color is readable */
+}
+
+.md-button {
+    border: 0px !important; /* Change this to your preferred border color */
+}
