@@ -8,30 +8,53 @@
   --md-primary-fg-color:        #bf1e2e;
 }
 
+/* Force h1 color change */
+.md-typeset h1 {
+    color: #000000 !important;
+	font-weight: 500 !important; /* Stronger bold effect */
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   color: #bf1e2e; /* Headings  */
 }
 
-
-.md-header-nav__link {
-  color: #fffffff !important; /* Adjust to your preferred color */
+/* Add a separator only below main menu titles */
+.md-nav__item > label.md-nav__link:not(.md-nav__link--active) {
+    display: block;
+    border-bottom: 1px solid #ccc !important; /* Gray separator */
+    padding-bottom: 5px !important;
+    margin-bottom: 10px !important;
+	color: #000000 !important; /* Adjust color if needed */
+	font-weight: 800 !important; /* Stronger bold effect */
 }
 
-/* Change color on hover */
-.md-header-nav__link:hover {
-  color: #bf1e2e !important; /* Example: Yellow on hover */
+/* Increase the boldness of the active tab in the header */
+.md-tabs__item--active {
+    font-weight: 800 !important; /* Stronger bold effect */
+    color: #ffffff !important; /* Adjust color if needed */
 }
 
-/* Ensure the sidebar text is readable */
-.md-nav__link {
-  color: #fffffff !important;
+.md-header__button.md-logo img {
+    height: 30px; /* Adjust based on your logo size */
+    margin-right: 40px; /* Creates space between logo and text */
 }
+
+.md-header__title {
+    height: 30px;
+}
+
+.md-nav__title {
+    display: none !important;
+}
+
 
 /* Ensure the sidebar text is readable */
 .md-nav__link:hover  {
   color: #bf1e2e !important;
 }
 
-.md-header__title {
-  color: #fffffff !important;
+/* Ensure the sidebar text is readable */
+.md-nav__link--active  {
+  font-weight: 800 !important; /* Stronger bold effect */
 }
