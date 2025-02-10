@@ -1,5 +1,6 @@
 ---
 pdf: true
+level: confidential
 ---
 <!-- markdownlint-disable no-inline-html -->
 

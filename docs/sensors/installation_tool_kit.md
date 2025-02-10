@@ -1,5 +1,6 @@
 ---
 pdf: true
+level: confidential
 ---
 
 # Installation Tool Kit

@@ -8,6 +8,11 @@
   --md-primary-fg-color:        #bf1e2e;
 }
 
+/* Change input field underline color */
+.md-typeset input, .md-typeset textarea {
+    border-bottom: 2px solid #bf1e2e !important;
+}
+
 /* Force h1 color change */
 .md-typeset h1 {
     color: #000000 !important;

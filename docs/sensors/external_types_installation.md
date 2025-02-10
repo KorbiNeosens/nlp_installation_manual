@@ -1,5 +1,6 @@
 ---
 pdf: true
+level: confidential
 ---
 
 # Sensor Types and Accessories
