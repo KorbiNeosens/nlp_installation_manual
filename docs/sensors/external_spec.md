@@ -7,7 +7,7 @@ level: confidential
 
 ## Pressure and Temperature Measurement
 
-- Gauge Pressure: 0 – 12 Bar (0 – 174 PSI).
+- Gauge Pressure: 0 – 13 Bar (0 – 188 PSI).
 - Pressure Resolution: 0.1 Bar.
 - Pressure Accuracy: +/- 0.1 Bar.
 - Temperature: -40°C – 85°C (-40°F - 185°F).
