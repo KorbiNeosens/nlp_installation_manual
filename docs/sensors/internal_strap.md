@@ -8,7 +8,7 @@ level: confidential
 ## Installation and Maintenance
 
 - Suitable for all European heavy-duty rims.
-- An extended velcro length allow for installations on rims from 17 inches to 24,5 inches.
+- An extended velcro length allow for installations on rims from 17,5 inches to 24,5 inches.
 - The maximum permissible speed for a strap sensor with a strap is 130 km/h.
 - Thoroughly degrease and clean the rim before attaching the sensor with the band.
 - For conical rims, the strap must be positioned on the smallest diameter of the wheel.

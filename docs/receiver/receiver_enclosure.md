@@ -20,15 +20,15 @@ level: confidential
 
 Included a 1 meter pigtail cable with TE-1718230-1 connector:
 
-|**Pin Number** | **Description**                        |
-|:----------------:|:--------:|
-| 1  | CAN-L        |
-| 2  | RS232-Tx     |
-| 3  | GND          |
-| 4  | RS232-Rx     |
-| 5  | NC           |
-| 6  | CAN-H        |
-| 7  | Power        |
+|**Pin Number** | **Pin Description** | **Color** |
+|:----------------:|:--------:|:--------:|
+| 1  | CAN-L        |WHITE    |
+| 2  | RS232-Tx     |BROWN       |
+| 3  | GND          |GREEN        |
+| 4  | RS232-Rx     |RED    |
+| 5  | NC           |        |
+| 6  | CAN-H        |BLACK      |
+| 7  | Power        |BLUE      |
 
 |**Pinout** | **Pigtail**                        |
 |:----------------:|:--------:|
