@@ -16,6 +16,7 @@ level: confidential
 
 ![Receiver](images/receiver_blank.png){ width="400px"}
 
+
 ## Connector
 
 Included a 1 meter pigtail cable with TE-1718230-1 connector:
