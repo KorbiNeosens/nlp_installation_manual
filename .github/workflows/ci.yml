@@ -4,6 +4,7 @@ on:
     branches:
       - master 
       - main
+      - gh-pages  # Added gh-pages branch
 permissions:
   contents: write
 jobs:
