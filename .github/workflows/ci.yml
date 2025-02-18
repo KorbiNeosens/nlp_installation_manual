@@ -27,4 +27,4 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-encryptcontent-plugin
-      - run: mkdocs gh-deploy --force --branch gh-pages 
+      - run: mkdocs gh-deploy --force --remote-branch gh-pages  # Fixed command 
