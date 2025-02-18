@@ -27,7 +27,4 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-encryptcontent-plugin
-      - name: Force MkDocs Deploy
-        run: |
-          mkdocs build --clean  # Ensure site is generated
-          mkdocs gh-deploy --force --remote-branch gh-pages
+      - run: mkdocs gh-deploy
