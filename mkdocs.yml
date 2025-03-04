@@ -60,18 +60,18 @@ plugins:
         password_button_text: 'Enter'
         summary: 'This content is password protected.'
         password_file: 'passwords.yml'
-  - exporter:
-      formats:
-        pdf:
-          enabled: true
-          stylesheets:
-            - resources/stylesheets/pdf.scss
-          covers:
-            front: resources/templates/covers/front.html.j2
-          aggregator:
-            enabled: true
-            output: Tiresens_Installation_Manual_v1-0.pdf
-            covers: limits
+  # - exporter:
+  #     formats:
+  #       pdf:
+  #         enabled: true
+  #         stylesheets:
+  #           - resources/stylesheets/pdf.scss
+  #         covers:
+  #           front: resources/templates/covers/front.html.j2
+  #         aggregator:
+  #           enabled: true
+  #           output: Tiresens_Installation_Manual_v1-0.pdf
+  #           covers: limits
 
 nav:
   - Home: index.md
