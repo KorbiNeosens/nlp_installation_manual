@@ -11,6 +11,7 @@ level: confidential
 |:----------------------:|
 | ![Tool Kit](images/tool_kit.JPG) |
 
+<div class="page-break"></div>
 ## Tool Kit Content
 
 |**Number** | **Description**                        |

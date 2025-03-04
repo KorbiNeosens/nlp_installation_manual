@@ -16,7 +16,8 @@ level: confidential
 - Dimensions: 102x62x39mm (LxWxH).
 - Water proof: IP67, IP69K
 - Material: Plastic, brass
-
+  
+<div class="page-break"></div>
 ## Fitment Instruction
 
 |**Fitment Steps** | **Picture**                        |

@@ -17,6 +17,7 @@ The receiver will always blink **4 times** in a row. Each blink has a different 
 ![Receiver](images/receiver_leds.png){ width="300px"}
 
 ### 1st Blink - RF Status
+
 |**Color** | **Description**                        |
 |---------|---------------------------|
 | <span style="color:red">RED</span> | Channels 1 and 2 not receiving frames |
@@ -24,6 +25,7 @@ The receiver will always blink **4 times** in a row. Each blink has a different 
 | <span style="color:blue">BLUE</span>  | Channels 1 and 2 receiving frames  |
 
 ### 2nd Blink - 2.4GHz Link Status
+
 |**Color** | **Description**                        |
 |---------|---------------------------|
 | <span style="color:red">RED</span> | Advertising only |

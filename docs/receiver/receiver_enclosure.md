@@ -16,8 +16,7 @@ level: confidential
 
 ![Receiver](images/receiver_blank.png){ width="400px"}
 
-
-
+<div class="page-break"></div>
 ## Connector
 
 Included a 1 meter pigtail cable with TE-1718230-1 connector:
@@ -41,6 +40,7 @@ The matching connector for an installation cable is the following:
 - Matching Connector: TE PN 967650-1
 - Matching Terminal: TE PN 929989-1
 
+<div class="page-break"></div>
 ## General Wiring
 
 The general wiring of the receiver follows the picture:
@@ -135,6 +135,7 @@ For aftermarket installations, one must use the AUX port. The installer must use
 
 ![Cable_KB](images/KB_Installation.png){ width="800px"}
 
+<div class="page-break"></div>
 ## Wiring with Telematics
 
 If the receiver will be installed with a Telematics box, please follow the guidelines below:

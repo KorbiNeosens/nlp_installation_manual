@@ -24,6 +24,7 @@ Consider the following recommendations when identifying the optimal mounting pos
 
     - Sensor to Receiver distance limitation: 4,5 m
 
+<div class="page-break"></div>
 ## Fixation
 
 The receiver can be affected by interference, so it's important to install it properly. Place the unit with its top side, which includes antennas,  facing outward (away from any metal). Make sure the top, face with laser markings and LEDs, is not obstructed.
