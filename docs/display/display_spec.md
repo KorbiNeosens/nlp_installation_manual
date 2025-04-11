@@ -53,4 +53,4 @@ that Transceiver, including the Trailers.
 - Dimensions: 116x68x25mm (LxWxH).
 - Includes Bracket&Screw.
 
-![Display Bracket](images/display_bracket.png){ width="450px"}
+![Display Bracket](images/display_bracket.png){ width="400px"}
