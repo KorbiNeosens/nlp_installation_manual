@@ -61,7 +61,60 @@ The general wiring of the receiver follows the picture:
         - Connect the RS232 Tx and RS232 Rx wires to the corresponding RS232 interface connection
     - We recommend using twisted pairs for all communication wires: CAN and RS232.
 
-## Wiring with EBS (Trailers)
+
+## Wiring for Trucks
+
+### Standalone Receiver
+
+For Truck installations where the transceiver will not be connected to a Telematics unit, you only need to provide power (from ignition, KL 15) to the receiver. Since the transceiver will be installed externally on the vehicle, a cable must be routed together with the OE-cables of the vehicle, from the receiver to the internal fuse-box in the cabin.
+This routing needs to follow the OE routing and use any available fuse-box entry at the vehicle front. See the Truck OE manual for reference. The cable **16065** must be used for that end:
+
+![Wiring](images/no_EBS.png){ width="700px"}
+
+During the installation, the power (ignition line) used to supply the receiver **must be fused** with a maximum 10A fuse.
+
+
+### Including Telematics
+
+For Truck installations where a Telematics unit is included, the transceiver and the telematics will need to be connected together.
+•	The Transceiver will be placed externally on the Truck.
+•	The Telematics Box will be placed internally in the vehicle cabin.
+Since the transceiver will be installed externally on the vehicle, a cable must be routed together with the OE-cables of the vehicle, from the receiver to the internal fuse-box in the cabin.
+This routing needs to follow the OE routing and use any available fuse-box entry at the vehicle front. See the Truck OE manual for reference. The cable **16065** must be used for that end.
+Inside the cabin, find a suitable position for the telematics inside the dashboard, following the rules below:
+•	Cannot be surrounded by metal or cables;
+•	Needs line of sight with the sky – only plastic/glass between the unit and the sky;
+•	Needs to be fixed, avoiding vibration.
+•	Avoid heated parts.
+Generally, next to the fuse box there is available space to place the telematics device.
+
+![Wiring](images/aplicom.png){ width="700px"}
+
+The connection between the truck cable, the Telematics and the vehicle is as follows:
+
+![Wiring](images/16065_truck.png){ width="300px"}
+
+![Wiring](images/truck_vehicle.png){ width="300px"}
+
+![Wiring](images/truck_aplicom.png){ width="400px"}
+
+We recommend using soldering and automotive clamping terminals to connect all the wires. Make sure you isolate and protect each wire individually, and also the whole cable once the connections are finished.
+
+It is **mandatory** to add a 120R resistor between the CANH and CANL lines of the Telematics unit. This resistor needs to be added as close as possible to the telematics, as per the picture above.
+
+During the installation, the power and ignition line used to supply the telematics **must be fused** with a maximum 10A fuse.
+
+
+## Wiring for Trailers without EBS 
+
+For Trailer installations where an EBS device is not available, it is recommended to get power by connecting the transceiver to vehicle lights. The cable **16065** must be used for that end:
+
+![Wiring](images/no_EBS.png){ width="700px"}
+ 
+Ensure that the light line (power) is already **fused**.
+
+
+## Wiring for Trailers with EBS 
 
 For Trailer installations is recommended to get power by connecting the transceiver to the EBS system. A different suite of cables is required depending on the EBS system and if the CAN communication for EU-R141 will be required.
 
