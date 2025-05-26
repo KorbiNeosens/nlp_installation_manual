@@ -1,0 +1,1231 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Neosens">
+      
+      
+      
+        <link rel="prev" href="../../sensors/internal_strap/">
+      
+      
+        <link rel="next" href="../display_buttons/">
+      
+      
+      <link rel="icon" href="../../images/tiresens_sq.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Specification - Installation Manual v1.0</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../styles/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#specification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Installation Manual v1.0" class="md-header__button md-logo" aria-label="Installation Manual v1.0" data-md-component="logo">
+      
+  <img src="../../images/tiresens_bw.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Installation Manual v1.0
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Specification
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="black"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../receiver/receiver_spec/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Receiver
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sensors/external_spec/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  External Sensors
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sensors/internal_spec/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Internal Sensors
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Display
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Installation Manual v1.0" class="md-nav__button md-logo" aria-label="Installation Manual v1.0" data-md-component="logo">
+      
+  <img src="../../images/tiresens_bw.png" alt="logo">
+
+    </a>
+    Installation Manual v1.0
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Receiver
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Receiver
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receiver/receiver_spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Specification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receiver/receiver_enclosure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Enclosure and Cables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receiver/receiver_installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receiver/receiver_configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration and Diagnostics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receiver/receiver_certificates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Certificates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    External Sensors
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            External Sensors
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sensors/external_spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Specification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sensors/external_types_installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sensor Types and Accessories
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sensors/installation_tool_kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation Tool Kit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Internal Sensors
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Internal Sensors
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sensors/internal_spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Specification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sensors/internal_valve/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Valve-mounted Sensor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sensors/internal_strap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Strap-mounted Sensor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Display
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Display
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Specification
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Specification
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Quick links">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Quick links
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functional-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functional Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#electrical-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Electrical Specifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireless-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wireless Communication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      User interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connector" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mechanical-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mechanical Package
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../display_buttons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Buttons Functionality
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Quick links">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Quick links
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functional-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functional Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#electrical-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Electrical Specifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireless-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wireless Communication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      User interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connector" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mechanical-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mechanical Package
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div id="mkdocs-encrypted-content" style="display:none">pwPH/2jKecYeBPCkaRb0dQ==;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</div>
+<div id="mkdocs-decrypted-content">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This content is password protected.</h1>
+        <p>Contact your administrator for access to this page.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        <button class="md-button md-button--primary" id="mkdocs-decrypt-button">Enter</button>
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "display/display_spec/";
+var decryption_failure_message = "Invalid password.";
+var encryptcontent_keystore = ["ZO4BP5GkdgU51TEos307Kg==;evM6YXl5i5771azMbWWdxfpGU2kYxVpoE+wE8ZI8Pwg81yFabAAz/FLuJOieOsZHDuU+UTZ+8moW9jLVA09FeBfQM63f7NM25KiVagFXXYaab+2Osj65oPcn89wOaXwT;CBHjAMCQQb2ZofdJhUdb+Q==", "g3KYcdiJtLHYqQa9JIznnA==;oBzIxP6mxpQ3p0cxSvcMH3imy0wdpoJRv2pYhAbjhHVnKNgfx6JW1HaCr4H8EqHQrdvxqiEgEj557ISajfY8KUMMIkjpu3tZeijCJWh4HX+3leC6mN0eWS2G1c5jRqtX;k4ppQC6czvOhtK1jtHPJow==", "R6g+9Oy7LS5ejhOS+XpPqw==;wvMfzCqzHu0U9UgDbag2eA1h3lB+5njsUFTvq2orX3ob7zc8DmM6c4KXGNsT/WN3gBtWM/IkoelW1VXx3OSv8G5KARk470iFT5gi7C9GGGh0EI3s8yy7jSwgPnSgBqpK;h7DfI6BV9DU5mP+BZkAYRA==", "8GZ0PWAQtdOqZLvxrpwT4g==;Wvt983sZb4ZGcNAOOfn0+jtAK+6jU6A6ZlqHRS2nuY76p/KaRDiz00H1mGpchXbtJfY2nGEcZ7eP9GkGGXY8JNfz8NR5WIJUZc5wrHmYAhN5SvbWxKFCpofgvwWb3quI;F4Axil8J8QDui0ekiuMJcg==", "LLCXqxU2xOEcIyEhYMlQyw==;IgKCgAnGu7AHi0mQR+78aNsHa4JA4Jz2v2zAuyib1yfA8Fc382KXLXyghymfhhlH6vhhBbsY/nBVY+0ajlV0o75CatNMtn35xPHLjRgHW1uoNiaysv8XaUC7G2PlgU4/;kRafkyUh0G7Es1Xwgsoehw==", "vunzkmwGYUbI0FTlQKvIWQ==;0CPChOuNgnwZgvI9OPLe69AHo7kcMnSLuTcDIVtQEsONNMHsmnWaD5ZSAPEicsfKJbmr3d+b6FcCbb0DRoLG+QGCCYL3U0A0EHX3n0+iGrvofxE6R4tKp6u0UxhQrpIu;OEUMVt8ZY+7vpZLgs3Kf8A==", "wQW8Z7k/qmWc1kEhH4s90w==;halX8lAzSBrIJ9PoCE3fdamcLvCdog68QG9bahteewrr/ovyE3knjmqca9WcH2xa9PuG8feFhh8TFtLiUVLAFu3mEGig4tyr1//PNsSXDCyiev6teNC7dkeKpDft9mrA;memFcoJDGR4lSPRnGUpCuQ==", "WCtcBq7XcCRy7pGYYX5Byw==;3B4jafDpL8DWWv33K/Vyjurm2zt2y/EqZ38g5rpHM0mDNj01FDPC0Pn25xAhz+whFKhtnyF0Ct0JuixplpFVur8/KYdM5RFQDL1oOqOdWv8Guwyo7rLk/El3y/lX+pJc;RspuaPdYz/klHdXEUp5Vyw==", "v4uQEnCX4ssGZ7SHLaEm9A==;VXx/tWxpLO3caFGxPiqkDURhE8rqc+OiEOJukDqFmJF95RFXBl8QLQpIcZGlfH0KZYB7IUjMkIhm/N+a5XFAG08FxTtjm0Lrm4DYB78m++HQ+8C3G4pHUmNR7XEyZvOa;hPxeYCfMu2veoZy5LLjsFw==", "S0tcG7VqYd/DyQnvDQVLHg==;km8Mr487sk0iO03E6RkTtyfD9FnMn0BrUj6KJHdCDYRMnPmRTpzhnP5QQKypyCS/Pf8XRo0sk8OLnGILlzlbPFHP+Px7gntkaZErgU2jCk63qK4onbO5U+0ppKHtdX5u;q0LYRgoRjZFzWTq0SCGDXA==", "XUfYN5W1xkWkG4PmgCX1Tg==;JMRyEtyR2NR0if+Sy7vqWN+KEWhmZ5uKdWcjZxrun0COsVoz5rh1mTDgIq5YJfdru4u+xvFoktn924c1aPuYAz+23iB5sFc0AJ503CHJD1w9192RsRGZRGc3kpgUThsG;M0yNx1g9zqcc/KaZVadf5w==", "Pkk/HezMi1yO7ii86GInvQ==;3D6LWBuwzJXNnctzf21dXVnh0UOhO3bUw17hGoy3INWu3Bs0ypoepLpreU0M3BWoam60N8txmLteVBIEUgGVP/KXwk16LqwKNBownkgQAuPsNL+LsnshOU1Fzk5CChQv;kze9rjESvts+p0g5rDD51w==", "rOcg1Lk4Out4WO+YqdJFCA==;vbtTYBV1IDP+c+0RLsRxIc9BrKYUtnrk4BjxlpKnF03iI29tk4ZtaYapxdYz8MdZg6F3hb/LcDNKwf7mB0eGt5dMeZYjS/LxHWdUBN2WkM+2nCk289AqT5deagHvm1s8;OejI3hjAVABAcWinshGDTQ==", "91UNzBM2nF3z3MKNN7mDCA==;aOPpA3YjpiKiKyhKxNasPxQYQw4pGDXa1mtwlUwk6uSLGvhRJIu/CPTcmPrTolBMVNPa/54KAJCHReDXjX87W3j+qM9XTVCvecF7xU2Z/62J5LXS4Ku5yTjgCX95Esws;plC3aw+kfNCmngittC2ssw==", "K5PvwNlP7lKZOhr/gIg5aA==;PS0/6ZI3FYp4FYSDWOU4Z8QK9ibbjW6Nxdf1t6Xj9GNVrkC9kcBeathOQmV7tB3+u21bdP9vzKlzHu68Lv18pdqt8lA10/TmLGj2b6x16cfogvM7K8NJS7ElKw0ghU+l;AXFOw7e+XW5U6D2trfP4AA=="];
+var encryptcontent_obfuscate = 0;
+
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+  
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.instant", "navigation.path", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/external/unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
