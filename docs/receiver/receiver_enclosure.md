@@ -150,13 +150,13 @@ For aftermarket installations, any free AUX port can be used. The installer must
 
 #### EU-R141 Communication
 
-For R141 compliance, one must use the AUX port. The installer must use the cable **844 321 010** from Haldex, connected to our cable **16050**.
+For R141 compliance, one must use the AUX port. The installer must use the cable **844 521 010** from Haldex, connected to our cable **16050**.
 
 ![Cable_Haldex](images/Haldex_Installation.png){ width="800px"}
 
 #### Power only
 
-For aftermarket installations, any free AUX port can be used. The installer must use the cable **844 321 010** from Haldex, connected to our cable **16050**.
+For aftermarket installations, any free AUX port can be used. The installer must use the cable **844 521 010** from Haldex, connected to our cable **16050**.
 
 ![Cable_Haldex](images/Haldex_Installation.png){ width="800px"}
 
