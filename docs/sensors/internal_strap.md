@@ -15,7 +15,8 @@ level: confidential
 
 ## Mechanical Features
 
-- Weight: 71.5g.
+- Sensor Weight: 36.4g.
+- Strap Weight: 78.9g.
 - Dimensions: 84x32x23mm (LxWxH).
 - Water proof: IP67, IP69K.
 - Material: Plastic.

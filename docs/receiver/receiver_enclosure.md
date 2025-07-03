@@ -67,7 +67,7 @@ The general wiring of the receiver follows the picture:
 ### Standalone Receiver
 
 For Truck installations where the transceiver will not be connected to a Telematics unit, you only need to provide power (from ignition, KL 15) to the receiver. Since the transceiver will be installed externally on the vehicle, a cable must be routed together with the OE-cables of the vehicle, from the receiver to the internal fuse-box in the cabin.
-This routing needs to follow the OE routing and use any available fuse-box entry at the vehicle front. See the Truck OE manual for reference. The cable **16065** must be used for that end:
+This routing needs to follow the OE routing and use any available fuse-box entry at the vehicle front. See the Truck OE manual for reference. The cable **16068** must be used for that end:
 
 ![Wiring](images/no_EBS.png){ width="700px"}
 
@@ -77,15 +77,19 @@ During the installation, the power (ignition line) used to supply the receiver *
 ### Including Telematics
 
 For Truck installations where a Telematics unit is included, the transceiver and the telematics will need to be connected together.
-•	The Transceiver will be placed externally on the Truck.
-•	The Telematics Box will be placed internally in the vehicle cabin.
+
+- The Transceiver will be placed externally on the Truck.
+- The Telematics Box will be placed internally in the vehicle cabin.
+
 Since the transceiver will be installed externally on the vehicle, a cable must be routed together with the OE-cables of the vehicle, from the receiver to the internal fuse-box in the cabin.
-This routing needs to follow the OE routing and use any available fuse-box entry at the vehicle front. See the Truck OE manual for reference. The cable **16065** must be used for that end.
+This routing needs to follow the OE routing and use any available fuse-box entry at the vehicle front. See the Truck OE manual for reference. The cable **16068** must be used for that end.
 Inside the cabin, find a suitable position for the telematics inside the dashboard, following the rules below:
-•	Cannot be surrounded by metal or cables;
-•	Needs line of sight with the sky – only plastic/glass between the unit and the sky;
-•	Needs to be fixed, avoiding vibration.
-•	Avoid heated parts.
+
+- Cannot be surrounded by metal or cables;
+- Needs line of sight with the sky – only plastic/glass between the unit and the sky;
+- Needs to be fixed, avoiding vibration.
+- Avoid heated parts.
+
 Generally, next to the fuse box there is available space to place the telematics device.
 
 ![Wiring](images/aplicom.png){ width="700px"}
