@@ -108,17 +108,15 @@ It is **mandatory** to add a 120R resistor between the CANH and CANL lines of th
 
 During the installation, the power and ignition line used to supply the telematics **must be fused** with a maximum 10A fuse.
 
+## Wiring for Trailers without EBS
 
-## Wiring for Trailers without EBS 
-
-For Trailer installations where an EBS device is not available, it is recommended to get power by connecting the transceiver to vehicle lights. The cable **16065** must be used for that end:
+For Trailer installations where an EBS device is not available, it is recommended to get power by connecting the transceiver to vehicle lights. The cable **16068** must be used for that end:
 
 ![Wiring](images/no_EBS.png){ width="700px"}
- 
+
 Ensure that the light line (power) is already **fused**.
 
-
-## Wiring for Trailers with EBS 
+## Wiring for Trailers with EBS
 
 For Trailer installations is recommended to get power by connecting the transceiver to the EBS system. A different suite of cables is required depending on the EBS system and if the CAN communication for EU-R141 will be required.
 
