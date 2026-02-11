@@ -1,0 +1,70 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+  --md-primary-fg-color:        #bf1e2e;
+}
+
+/* Change input field underline color */
+.md-typeset input, .md-typeset textarea {
+    border-bottom: 2px solid #bf1e2e !important;
+}
+
+/* Force h1 color change */
+.md-typeset h1 {
+    color: #000000 !important;
+	font-weight: 500 !important; /* Stronger bold effect */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #bf1e2e; /* Headings  */
+}
+
+/* Add a separator only below main menu titles */
+.md-nav__item > label.md-nav__link:not(.md-nav__link--active) {
+    border-bottom: 1px solid #ccc !important; /* Gray separator */
+	color: #000000 !important; /* Adjust color if needed */
+}
+
+/* Increase the boldness of the active tab in the header */
+.md-tabs__item--active {
+    font-weight: 800 !important; /* Stronger bold effect */
+    color: #ffffff !important; /* Adjust color if needed */
+}
+
+.md-header__button.md-logo img {
+    height: 40px; /* Adjust based on your logo size */
+}
+
+
+/* Ensure the sidebar text is readable */
+.md-nav__link:hover  {
+  color: #bf1e2e !important;
+}
+
+/* Ensure the sidebar text is readable */
+.md-nav__link--active  {
+  font-weight: 800 !important; /* Stronger bold effect */
+}
+
+.md-nav__title {
+  color: #000000 !important;
+  border-bottom: 1px solid #ccc !important; /* Gray separator */
+}
+
+.md-nav__title[for="__drawer"][for="__drawer"] {
+  color: #ffffff !important;
+}
+
+.md-button:hover,
+.md-button--primary:hover {
+    background-color: #000000 !important; /* Change to your preferred hover color */
+    color: #ffffff !important; /* Ensure text color is readable */
+}
+
+.md-button {
+    border: 0px !important; /* Change this to your preferred border color */
+}
